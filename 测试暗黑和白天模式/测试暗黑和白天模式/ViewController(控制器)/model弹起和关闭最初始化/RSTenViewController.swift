@@ -16,6 +16,14 @@ class RSTenViewController: RSBaseViewController {
         return btn
     }()
     
+    
+    lazy var sencondBtn:UIButton = {
+        let sencondBtn = UIButton()
+        sencondBtn.setTitle("弹起", for: .normal)
+        sencondBtn.setTitleColor(UIColor.red, for: .normal)
+        return sencondBtn
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -26,7 +34,18 @@ class RSTenViewController: RSBaseViewController {
             make.width.height.equalTo(100)
         }
         
+        view.addSubview(sencondBtn)
+        sencondBtn.snp.makeConstraints { make in
+            make.top.equalTo(btn.snp.bottom).offset(10)
+            make.left.equalTo(100)
+            make.width.height.equalTo(100)
+        }
+        
+        
         btn.addTarget(self, action: #selector(presentAction), for: .touchUpInside)
+        sencondBtn.addTarget(self, action: #selector(sencondPresntAction), for: .touchUpInside)
+        
+        
     }
         
     
@@ -37,9 +56,21 @@ class RSTenViewController: RSBaseViewController {
         
         let oneVc = RSOneOneViewController()
         oneVc.modalPresentationStyle = .overCurrentContext
+        oneVc.addFirstView()
 //        oneVc.modalTransitionStyle = .flipHorizontal
         self.present(oneVc, animated: true) {
             
+            
+        }
+    }
+    
+    
+    @objc func sencondPresntAction(btn:UIButton){
+        let oneVc = RSOneOneViewController()
+        oneVc.modalPresentationStyle = .overCurrentContext
+//        oneVc.modalTransitionStyle = .flipHorizontal
+        oneVc.addSecondView()
+        self.present(oneVc, animated: true) {
             
         }
     }

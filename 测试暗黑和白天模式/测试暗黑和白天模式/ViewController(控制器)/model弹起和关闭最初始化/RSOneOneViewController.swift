@@ -82,6 +82,25 @@ class RSOneOneViewController: UIViewController {
     @objc func downClick(btn:UIButton){
         self.dismiss(animated: true, completion: nil)
     }
+    
+    func addFirstView(){
+        let firstView = RSFirstView()
+        firstView.center = view.center
+        firstView.width = 100
+        firstView.height = 100
+        view.addSubview(firstView)
+    }
+    
+    func addSecondView(){
+        let sencond = RSSecondView()
+        sencond.center = view.center
+        sencond.width = 100
+        sencond.height = 100
+        view.addSubview(sencond)
+    }
+    
+    
+    
 
 }
 

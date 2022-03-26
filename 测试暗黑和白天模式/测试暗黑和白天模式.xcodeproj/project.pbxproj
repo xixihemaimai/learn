@@ -35,6 +35,8 @@
 		04AA4F2C27E1C9F000D34143 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2B27E1C9F000D34143 /* API.swift */; };
 		04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */; };
 		04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B26FD327E334030048CB51 /* RSThirdViewController.swift */; };
+		04C27FAA27EED7A20070BC28 /* RSFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FA927EED7A20070BC28 /* RSFirstView.swift */; };
+		04C27FAC27EED7BA0070BC28 /* RSSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */; };
 		04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100927E9D9B700697061 /* Edit+Time.swift */; };
 		04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100D27EB03FD00697061 /* RSTenViewController.swift */; };
 		04CB101027EB042100697061 /* RSOneOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100F27EB042000697061 /* RSOneOneViewController.swift */; };
@@ -83,6 +85,8 @@
 		04AA4F2B27E1C9F000D34143 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkTool.swift; sourceTree = "<group>"; };
 		04B26FD327E334030048CB51 /* RSThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThirdViewController.swift; sourceTree = "<group>"; };
+		04C27FA927EED7A20070BC28 /* RSFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFirstView.swift; sourceTree = "<group>"; };
+		04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecondView.swift; sourceTree = "<group>"; };
 		04CB100927E9D9B700697061 /* Edit+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+Time.swift"; sourceTree = "<group>"; };
 		04CB100D27EB03FD00697061 /* RSTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTenViewController.swift; sourceTree = "<group>"; };
 		04CB100F27EB042000697061 /* RSOneOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneOneViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				04CB100D27EB03FD00697061 /* RSTenViewController.swift */,
 				04CB100F27EB042000697061 /* RSOneOneViewController.swift */,
+				04C27FA927EED7A20070BC28 /* RSFirstView.swift */,
+				04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */,
 			);
 			path = "model弹起和关闭最初始化";
 			sourceTree = "<group>";
@@ -481,12 +487,14 @@
 				04AA4EE627E07BA300D34143 /* ViewController.swift in Sources */,
 				042B8C0827E96E5800B2C69C /* RSMainViewController.swift in Sources */,
 				04CB101C27EBF5B700697061 /* RSOneFiveViewController.swift in Sources */,
+				04C27FAC27EED7BA0070BC28 /* RSSecondView.swift in Sources */,
 				04AA4F0827E188E800D34143 /* RSSecondViewController.swift in Sources */,
 				04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */,
 				04469EA027E5CB2A003831A9 /* RSTestCell.swift in Sources */,
 				04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */,
 				04E9CC5A27E8755C00FE8F9E /* RSSevenCell.swift in Sources */,
 				04AA4EE227E07BA300D34143 /* AppDelegate.swift in Sources */,
+				04C27FAA27EED7A20070BC28 /* RSFirstView.swift in Sources */,
 				04AA4F2C27E1C9F000D34143 /* API.swift in Sources */,
 				04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */,
 				04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */,
@@ -681,7 +689,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/测试暗黑和白天模式/Brideg.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/learn/测试暗黑和白天模式/Brideg.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -715,7 +723,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/测试暗黑和白天模式/Brideg.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/learn/测试暗黑和白天模式/Brideg.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

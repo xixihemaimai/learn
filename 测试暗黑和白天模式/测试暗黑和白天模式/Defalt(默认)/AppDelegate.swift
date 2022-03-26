@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let first = RSNineViewController()
 //        let navi = RSNaviViewController.init(rootViewController: first)
 //        navi.setNavigationBarHidden(true, animated: true)
-        self.window?.rootViewController = RSTwoOneViewController()
+        self.window?.rootViewController = RSTenViewController()
         self.window?.makeKeyAndVisible()
         return true
     }
