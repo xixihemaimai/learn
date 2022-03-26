@@ -14,6 +14,7 @@
 		04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA327E6B622003831A9 /* RSSixViewController.swift */; };
 		04469EA627E6C506003831A9 /* RSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA527E6C506003831A9 /* RSModel.swift */; };
 		044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */; };
+		0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */; };
 		04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */; };
 		04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */; };
 		04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26427EDC42F00645365 /* RSCommentView.swift */; };
@@ -62,6 +63,7 @@
 		04469EA327E6B622003831A9 /* RSSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSixViewController.swift; sourceTree = "<group>"; };
 		04469EA527E6C506003831A9 /* RSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSModel.swift; sourceTree = "<group>"; };
 		044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoOneViewController.swift; sourceTree = "<group>"; };
+		0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoTwoViewController.swift; sourceTree = "<group>"; };
 		04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneSevenViewController.swift; sourceTree = "<group>"; };
 		04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneNineViewController.swift; sourceTree = "<group>"; };
 		04A3D26427EDC42F00645365 /* RSCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCommentView.swift; sourceTree = "<group>"; };
@@ -209,6 +211,14 @@
 			path = "分组为可以显示在最中间";
 			sourceTree = "<group>";
 		};
+		0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */ = {
+			isa = PBXGroup;
+			children = (
+				0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */,
+			);
+			path = "计算uiscrollveiw影响另一个UIview";
+			sourceTree = "<group>";
+		};
 		04A3D25927ED464B00645365 /* extension(扩展) */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +256,7 @@
 		04A3D25C27ED46CF00645365 /* ViewController(控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */,
 				044ADB5E27EE9DAE00FBC68D /* 分组为可以显示在最中间 */,
 				044ADB5D27EE9D6600FBC68D /* 自定义评论框 */,
 				044ADB5C27EE9CE700FBC68D /* 图片选择器滑动删除 */,
@@ -479,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AA4F2A27E1B8D300D34143 /* RSSecondViewModel.swift in Sources */,
+				0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */,
 				04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */,
 				04CB101427EB49B900697061 /* RSOneTwoViewController.swift in Sources */,
 				04AA4F0227E15CBC00D34143 /* RSBaseViewController.swift in Sources */,
