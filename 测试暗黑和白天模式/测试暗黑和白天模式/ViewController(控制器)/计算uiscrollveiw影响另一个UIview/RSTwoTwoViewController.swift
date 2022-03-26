@@ -14,6 +14,7 @@ class RSTwoTwoViewController: UIViewController {
     lazy var scrollview:UIScrollView = {
        let scrollview = UIScrollView()
         scrollview.delegate = self
+        scrollview.bounces = false
         return scrollview
     }()
     
@@ -42,7 +43,7 @@ class RSTwoTwoViewController: UIViewController {
         view.addSubview(scrollview)
         scrollview.snp.makeConstraints { make in
             make.top.right.left.equalToSuperview()
-            make.height.equalTo(120)
+            make.height.equalTo(80)
         }
         
         view.addSubview(outView)
@@ -62,14 +63,14 @@ class RSTwoTwoViewController: UIViewController {
             make.width.equalTo(15)
         }
         
-        for i in 0..<7 {
+        for i in 0..<8 {
             let btn = UIButton()
-            btn.frame = CGRect(x: i * (100 + 10) + 10, y: 10, width: 100, height: 100)
+            btn.frame = CGRect(x: i * (60 + 10) + 10, y: 10, width: 60, height: 60)
             btn.backgroundColor = UIColor.orange
             data.append(i)
             scrollview.addSubview(btn)
         }
-        scrollview.contentSize = CGSize(width: data.count * (100 + 10) + 10, height: 0)
+        scrollview.contentSize = CGSize(width: data.count * (60 + 10) + 10, height: 0)
         outView.width = scrollview.contentSize.width / 10
     }
 }
@@ -78,7 +79,8 @@ extension RSTwoTwoViewController:UIScrollViewDelegate{
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         //这边要做对比
         let bi = outView.width/scrollView.contentSize.width
-        inView.x = bi * scrollView.contentOffset.x
+        let bb = scrollView.contentOffset.x/outView.width
+        inView.x = bi * scrollView.contentOffset.x + 2 * bb
         LXFLog(inView.x)
     }
     
