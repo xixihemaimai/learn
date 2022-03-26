@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042B8C0827E96E5800B2C69C /* RSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B8C0727E96E5600B2C69C /* RSMainViewController.swift */; };
+		04469E9E27E55355003831A9 /* RSFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469E9D27E55355003831A9 /* RSFourViewController.swift */; };
+		04469EA027E5CB2A003831A9 /* RSTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469E9F27E5CB29003831A9 /* RSTestCell.swift */; };
+		04469EA227E5E49B003831A9 /* RSImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA127E5E499003831A9 /* RSImageContentView.swift */; };
+		04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA327E6B622003831A9 /* RSSixViewController.swift */; };
+		04469EA627E6C506003831A9 /* RSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA527E6C506003831A9 /* RSModel.swift */; };
+		044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */; };
+		04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */; };
+		04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */; };
+		04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26427EDC42F00645365 /* RSCommentView.swift */; };
+		04AA4EE227E07BA300D34143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EE127E07BA300D34143 /* AppDelegate.swift */; };
+		04AA4EE627E07BA300D34143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EE527E07BA300D34143 /* ViewController.swift */; };
+		04AA4EE927E07BA300D34143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA4EE727E07BA300D34143 /* Main.storyboard */; };
+		04AA4EEB27E07BAD00D34143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA4EEA27E07BAD00D34143 /* Assets.xcassets */; };
+		04AA4EEE27E07BAD00D34143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA4EEC27E07BAD00D34143 /* LaunchScreen.storyboard */; };
+		04AA4EF627E07BDA00D34143 /* Edit+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EF527E07BD900D34143 /* Edit+Color.swift */; };
+		04AA4EF827E07C9100D34143 /* Edit+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EF727E07C9000D34143 /* Edit+String.swift */; };
+		04AA4EFA27E0888900D34143 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EF927E0888900D34143 /* Config.swift */; };
+		04AA4EFE27E0943D00D34143 /* Edit+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EFD27E0943D00D34143 /* Edit+UIImageView.swift */; };
+		04AA4F0027E0A00100D34143 /* Edit+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EFF27E0A00100D34143 /* Edit+UIImage.swift */; };
+		04AA4F0227E15CBC00D34143 /* RSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F0127E15CBC00D34143 /* RSBaseViewController.swift */; };
+		04AA4F0427E15CF500D34143 /* RSFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F0327E15CF500D34143 /* RSFirstViewController.swift */; };
+		04AA4F0627E15D1B00D34143 /* RSNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F0527E15D1B00D34143 /* RSNaviViewController.swift */; };
+		04AA4F0827E188E800D34143 /* RSSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F0727E188E800D34143 /* RSSecondViewController.swift */; };
+		04AA4F2A27E1B8D300D34143 /* RSSecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2927E1B8D200D34143 /* RSSecondViewModel.swift */; };
+		04AA4F2C27E1C9F000D34143 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2B27E1C9F000D34143 /* API.swift */; };
+		04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */; };
+		04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B26FD327E334030048CB51 /* RSThirdViewController.swift */; };
+		04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100927E9D9B700697061 /* Edit+Time.swift */; };
+		04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100D27EB03FD00697061 /* RSTenViewController.swift */; };
+		04CB101027EB042100697061 /* RSOneOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100F27EB042000697061 /* RSOneOneViewController.swift */; };
+		04CB101427EB49B900697061 /* RSOneTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101327EB49B800697061 /* RSOneTwoViewController.swift */; };
+		04CB101627EB686A00697061 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101527EB686900697061 /* UIView+Extension.swift */; };
+		04CB101827EBF06900697061 /* RSOneThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101727EBF06900697061 /* RSOneThreeViewController.swift */; };
+		04CB101A27EBF4AF00697061 /* RSOneFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101927EBF4AF00697061 /* RSOneFourViewController.swift */; };
+		04CB101C27EBF5B700697061 /* RSOneFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101B27EBF5B700697061 /* RSOneFiveViewController.swift */; };
+		04CB101E27EBF72000697061 /* RSOneFiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101D27EBF72000697061 /* RSOneFiveCell.swift */; };
+		04CB102027EC00D500697061 /* RSMLSelectPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101F27EC00D500697061 /* RSMLSelectPhotosView.swift */; };
+		04CB102227EC158F00697061 /* RSOneSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB102127EC158F00697061 /* RSOneSixViewController.swift */; };
+		04CB102B27EC1F0400697061 /* UIViewController+RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */; };
+		04E9CC5827E8746F00FE8F9E /* RSSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5727E8746F00FE8F9E /* RSSevenViewController.swift */; };
+		04E9CC5A27E8755C00FE8F9E /* RSSevenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5927E8755C00FE8F9E /* RSSevenCell.swift */; };
+		04E9CC5C27E87AAC00FE8F9E /* RSNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5B27E87AAB00FE8F9E /* RSNineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042B8C0727E96E5600B2C69C /* RSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainViewController.swift; sourceTree = "<group>"; };
+		04469E9D27E55355003831A9 /* RSFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFourViewController.swift; sourceTree = "<group>"; };
+		04469E9F27E5CB29003831A9 /* RSTestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTestCell.swift; sourceTree = "<group>"; };
+		04469EA127E5E499003831A9 /* RSImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSImageContentView.swift; sourceTree = "<group>"; };
+		04469EA327E6B622003831A9 /* RSSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSixViewController.swift; sourceTree = "<group>"; };
+		04469EA527E6C506003831A9 /* RSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSModel.swift; sourceTree = "<group>"; };
+		044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoOneViewController.swift; sourceTree = "<group>"; };
+		04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneSevenViewController.swift; sourceTree = "<group>"; };
+		04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneNineViewController.swift; sourceTree = "<group>"; };
+		04A3D26427EDC42F00645365 /* RSCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCommentView.swift; sourceTree = "<group>"; };
+		04AA4EDE27E07BA300D34143 /* 测试暗黑和白天模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试暗黑和白天模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA4EE127E07BA300D34143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AA4EE527E07BA300D34143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AA4EE827E07BA300D34143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AA4EEA27E07BAD00D34143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AA4EED27E07BAD00D34143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AA4EEF27E07BAD00D34143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA4EF527E07BD900D34143 /* Edit+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Edit+Color.swift"; sourceTree = "<group>"; };
+		04AA4EF727E07C9000D34143 /* Edit+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Edit+String.swift"; sourceTree = "<group>"; };
+		04AA4EF927E0888900D34143 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		04AA4EFD27E0943D00D34143 /* Edit+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+UIImageView.swift"; sourceTree = "<group>"; };
+		04AA4EFF27E0A00100D34143 /* Edit+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+UIImage.swift"; sourceTree = "<group>"; };
+		04AA4F0127E15CBC00D34143 /* RSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSBaseViewController.swift; sourceTree = "<group>"; };
+		04AA4F0327E15CF500D34143 /* RSFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFirstViewController.swift; sourceTree = "<group>"; };
+		04AA4F0527E15D1B00D34143 /* RSNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNaviViewController.swift; sourceTree = "<group>"; };
+		04AA4F0727E188E800D34143 /* RSSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecondViewController.swift; sourceTree = "<group>"; };
+		04AA4F2927E1B8D200D34143 /* RSSecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecondViewModel.swift; sourceTree = "<group>"; };
+		04AA4F2B27E1C9F000D34143 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkTool.swift; sourceTree = "<group>"; };
+		04B26FD327E334030048CB51 /* RSThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThirdViewController.swift; sourceTree = "<group>"; };
+		04CB100927E9D9B700697061 /* Edit+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+Time.swift"; sourceTree = "<group>"; };
+		04CB100D27EB03FD00697061 /* RSTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTenViewController.swift; sourceTree = "<group>"; };
+		04CB100F27EB042000697061 /* RSOneOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneOneViewController.swift; sourceTree = "<group>"; };
+		04CB101327EB49B800697061 /* RSOneTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneTwoViewController.swift; sourceTree = "<group>"; };
+		04CB101527EB686900697061 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		04CB101727EBF06900697061 /* RSOneThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneThreeViewController.swift; sourceTree = "<group>"; };
+		04CB101927EBF4AF00697061 /* RSOneFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneFourViewController.swift; sourceTree = "<group>"; };
+		04CB101B27EBF5B700697061 /* RSOneFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneFiveViewController.swift; sourceTree = "<group>"; };
+		04CB101D27EBF72000697061 /* RSOneFiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneFiveCell.swift; sourceTree = "<group>"; };
+		04CB101F27EC00D500697061 /* RSMLSelectPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMLSelectPhotosView.swift; sourceTree = "<group>"; };
+		04CB102127EC158F00697061 /* RSOneSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneSixViewController.swift; sourceTree = "<group>"; };
+		04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSViewController.m"; sourceTree = "<group>"; };
+		04CB102A27EC1F0400697061 /* UIViewController+RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSViewController.h"; sourceTree = "<group>"; };
+		04CB102C27EC1F4E00697061 /* Brideg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brideg.h; sourceTree = "<group>"; };
+		04E9CC5727E8746F00FE8F9E /* RSSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSevenViewController.swift; sourceTree = "<group>"; };
+		04E9CC5927E8755C00FE8F9E /* RSSevenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSevenCell.swift; sourceTree = "<group>"; };
+		04E9CC5B27E87AAB00FE8F9E /* RSNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNineViewController.swift; sourceTree = "<group>"; };
+		86180145903D2BDCDE93B921 /* Pods__________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods__________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99837C066F0DFCD294234413 /* Pods-测试暗黑和白天模式.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-测试暗黑和白天模式.debug.xcconfig"; path = "Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式.debug.xcconfig"; sourceTree = "<group>"; };
+		F46A5ECA9B6452235C6B8699 /* Pods-测试暗黑和白天模式.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-测试暗黑和白天模式.release.xcconfig"; path = "Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AA4EDB27E07BA300D34143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044ADB5527EE9B7600FBC68D /* 手动计算uitableviewcell高度 */ = {
+			isa = PBXGroup;
+			children = (
+				04469E9F27E5CB29003831A9 /* RSTestCell.swift */,
+				04469EA127E5E499003831A9 /* RSImageContentView.swift */,
+				04469E9D27E55355003831A9 /* RSFourViewController.swift */,
+			);
+			path = "手动计算uitableviewcell高度";
+			sourceTree = "<group>";
+		};
+		044ADB5627EE9BBD00FBC68D /* uitabelviewcell内容为uitextview */ = {
+			isa = PBXGroup;
+			children = (
+				04E9CC5927E8755C00FE8F9E /* RSSevenCell.swift */,
+				04E9CC5727E8746F00FE8F9E /* RSSevenViewController.swift */,
+			);
+			path = "uitabelviewcell内容为uitextview";
+			sourceTree = "<group>";
+		};
+		044ADB5727EE9BE800FBC68D /* uitableviewcell展开和关闭 */ = {
+			isa = PBXGroup;
+			children = (
+				04E9CC5B27E87AAB00FE8F9E /* RSNineViewController.swift */,
+			);
+			path = "uitableviewcell展开和关闭";
+			sourceTree = "<group>";
+		};
+		044ADB5827EE9C1600FBC68D /* model弹起和关闭最初始化 */ = {
+			isa = PBXGroup;
+			children = (
+				04CB100D27EB03FD00697061 /* RSTenViewController.swift */,
+				04CB100F27EB042000697061 /* RSOneOneViewController.swift */,
+			);
+			path = "model弹起和关闭最初始化";
+			sourceTree = "<group>";
+		};
+		044ADB5927EE9C3800FBC68D /* 分组为固定的类目 */ = {
+			isa = PBXGroup;
+			children = (
+				04CB101327EB49B800697061 /* RSOneTwoViewController.swift */,
+			);
+			path = "分组为固定的类目";
+			sourceTree = "<group>";
+		};
+		044ADB5A27EE9C8800FBC68D /* UIScrollview内容添加的部分 */ = {
+			isa = PBXGroup;
+			children = (
+				04CB101727EBF06900697061 /* RSOneThreeViewController.swift */,
+			);
+			path = "UIScrollview内容添加的部分";
+			sourceTree = "<group>";
+		};
+		044ADB5B27EE9CB200FBC68D /* 自定义view创建的图片选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				04CB101D27EBF72000697061 /* RSOneFiveCell.swift */,
+				04CB101B27EBF5B700697061 /* RSOneFiveViewController.swift */,
+				04CB101F27EC00D500697061 /* RSMLSelectPhotosView.swift */,
+			);
+			path = "自定义view创建的图片选择器";
+			sourceTree = "<group>";
+		};
+		044ADB5C27EE9CE700FBC68D /* 图片选择器滑动删除 */ = {
+			isa = PBXGroup;
+			children = (
+				04CB102127EC158F00697061 /* RSOneSixViewController.swift */,
+			);
+			path = "图片选择器滑动删除";
+			sourceTree = "<group>";
+		};
+		044ADB5D27EE9D6600FBC68D /* 自定义评论框 */ = {
+			isa = PBXGroup;
+			children = (
+				04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */,
+				04A3D26427EDC42F00645365 /* RSCommentView.swift */,
+			);
+			path = "自定义评论框";
+			sourceTree = "<group>";
+		};
+		044ADB5E27EE9DAE00FBC68D /* 分组为可以显示在最中间 */ = {
+			isa = PBXGroup;
+			children = (
+				044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */,
+			);
+			path = "分组为可以显示在最中间";
+			sourceTree = "<group>";
+		};
+		04A3D25927ED464B00645365 /* extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4EF527E07BD900D34143 /* Edit+Color.swift */,
+				04AA4EF727E07C9000D34143 /* Edit+String.swift */,
+				04AA4EFD27E0943D00D34143 /* Edit+UIImageView.swift */,
+				04CB100927E9D9B700697061 /* Edit+Time.swift */,
+				04CB101527EB686900697061 /* UIView+Extension.swift */,
+				04AA4EFF27E0A00100D34143 /* Edit+UIImage.swift */,
+			);
+			path = "extension(扩展)";
+			sourceTree = "<group>";
+		};
+		04A3D25A27ED467700645365 /* Config(配置) */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4EF927E0888900D34143 /* Config.swift */,
+			);
+			path = "Config(配置)";
+			sourceTree = "<group>";
+		};
+		04A3D25B27ED468A00645365 /* Defalt(默认) */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4EEF27E07BAD00D34143 /* Info.plist */,
+				04AA4EEA27E07BAD00D34143 /* Assets.xcassets */,
+				04AA4EE727E07BA300D34143 /* Main.storyboard */,
+				04AA4EE527E07BA300D34143 /* ViewController.swift */,
+				04AA4EE127E07BA300D34143 /* AppDelegate.swift */,
+				04AA4EEC27E07BAD00D34143 /* LaunchScreen.storyboard */,
+			);
+			path = "Defalt(默认)";
+			sourceTree = "<group>";
+		};
+		04A3D25C27ED46CF00645365 /* ViewController(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				044ADB5E27EE9DAE00FBC68D /* 分组为可以显示在最中间 */,
+				044ADB5D27EE9D6600FBC68D /* 自定义评论框 */,
+				044ADB5C27EE9CE700FBC68D /* 图片选择器滑动删除 */,
+				044ADB5B27EE9CB200FBC68D /* 自定义view创建的图片选择器 */,
+				044ADB5A27EE9C8800FBC68D /* UIScrollview内容添加的部分 */,
+				044ADB5927EE9C3800FBC68D /* 分组为固定的类目 */,
+				044ADB5827EE9C1600FBC68D /* model弹起和关闭最初始化 */,
+				044ADB5727EE9BE800FBC68D /* uitableviewcell展开和关闭 */,
+				044ADB5627EE9BBD00FBC68D /* uitabelviewcell内容为uitextview */,
+				044ADB5527EE9B7600FBC68D /* 手动计算uitableviewcell高度 */,
+				04A3D26127ED476F00645365 /* Model（模型） */,
+				04A3D26027ED476600645365 /* view（视图） */,
+				04AA4F0727E188E800D34143 /* RSSecondViewController.swift */,
+				04AA4F0327E15CF500D34143 /* RSFirstViewController.swift */,
+				04B26FD327E334030048CB51 /* RSThirdViewController.swift */,
+				04CB101927EBF4AF00697061 /* RSOneFourViewController.swift */,
+				04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */,
+				04469EA327E6B622003831A9 /* RSSixViewController.swift */,
+			);
+			path = "ViewController(控制器)";
+			sourceTree = "<group>";
+		};
+		04A3D25D27ED46E000645365 /* Base(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4F0127E15CBC00D34143 /* RSBaseViewController.swift */,
+				04AA4F0527E15D1B00D34143 /* RSNaviViewController.swift */,
+			);
+			path = "Base(基础)";
+			sourceTree = "<group>";
+		};
+		04A3D25E27ED471600645365 /* Main(主控制) */ = {
+			isa = PBXGroup;
+			children = (
+				042B8C0727E96E5600B2C69C /* RSMainViewController.swift */,
+			);
+			path = "Main(主控制)";
+			sourceTree = "<group>";
+		};
+		04A3D25F27ED472600645365 /* NetWork(网络) */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4F2B27E1C9F000D34143 /* API.swift */,
+				04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */,
+			);
+			path = "NetWork(网络)";
+			sourceTree = "<group>";
+		};
+		04A3D26027ED476600645365 /* view（视图） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "view（视图）";
+			sourceTree = "<group>";
+		};
+		04A3D26127ED476F00645365 /* Model（模型） */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4F2927E1B8D200D34143 /* RSSecondViewModel.swift */,
+				04469EA527E6C506003831A9 /* RSModel.swift */,
+			);
+			path = "Model（模型）";
+			sourceTree = "<group>";
+		};
+		04AA4ED527E07BA200D34143 = {
+			isa = PBXGroup;
+			children = (
+				04CB102C27EC1F4E00697061 /* Brideg.h */,
+				04AA4EE027E07BA300D34143 /* 测试暗黑和白天模式 */,
+				04AA4EDF27E07BA300D34143 /* Products */,
+				3B57BA4BA444E908A4D43506 /* Pods */,
+				2EACF366F5E98973EA496185 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04AA4EDF27E07BA300D34143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AA4EDE27E07BA300D34143 /* 测试暗黑和白天模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AA4EE027E07BA300D34143 /* 测试暗黑和白天模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04A3D25F27ED472600645365 /* NetWork(网络) */,
+				04A3D25E27ED471600645365 /* Main(主控制) */,
+				04A3D25D27ED46E000645365 /* Base(基础) */,
+				04A3D25C27ED46CF00645365 /* ViewController(控制器) */,
+				04A3D25B27ED468A00645365 /* Defalt(默认) */,
+				04A3D25A27ED467700645365 /* Config(配置) */,
+				04A3D25927ED464B00645365 /* extension(扩展) */,
+				04CB102A27EC1F0400697061 /* UIViewController+RSViewController.h */,
+				04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */,
+			);
+			path = "测试暗黑和白天模式";
+			sourceTree = "<group>";
+		};
+		2EACF366F5E98973EA496185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86180145903D2BDCDE93B921 /* Pods__________.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B57BA4BA444E908A4D43506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99837C066F0DFCD294234413 /* Pods-测试暗黑和白天模式.debug.xcconfig */,
+				F46A5ECA9B6452235C6B8699 /* Pods-测试暗黑和白天模式.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AA4EDD27E07BA300D34143 /* 测试暗黑和白天模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA4EF227E07BAD00D34143 /* Build configuration list for PBXNativeTarget "测试暗黑和白天模式" */;
+			buildPhases = (
+				B9BED1707BDC8A833F02EC2D /* [CP] Check Pods Manifest.lock */,
+				04AA4EDA27E07BA300D34143 /* Sources */,
+				04AA4EDB27E07BA300D34143 /* Frameworks */,
+				04AA4EDC27E07BA300D34143 /* Resources */,
+				68A4C3CE6D5A3C01F966C7A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试暗黑和白天模式";
+			productName = "测试暗黑和白天模式";
+			productReference = 04AA4EDE27E07BA300D34143 /* 测试暗黑和白天模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AA4ED627E07BA200D34143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = RS;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04AA4EDD27E07BA300D34143 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04AA4ED927E07BA200D34143 /* Build configuration list for PBXProject "测试暗黑和白天模式" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AA4ED527E07BA200D34143;
+			productRefGroup = 04AA4EDF27E07BA300D34143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AA4EDD27E07BA300D34143 /* 测试暗黑和白天模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AA4EDC27E07BA300D34143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA4EEE27E07BAD00D34143 /* LaunchScreen.storyboard in Resources */,
+				04AA4EEB27E07BAD00D34143 /* Assets.xcassets in Resources */,
+				04AA4EE927E07BA300D34143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68A4C3CE6D5A3C01F966C7A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BED1707BDC8A833F02EC2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-测试暗黑和白天模式-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AA4EDA27E07BA300D34143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA4F2A27E1B8D300D34143 /* RSSecondViewModel.swift in Sources */,
+				04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */,
+				04CB101427EB49B900697061 /* RSOneTwoViewController.swift in Sources */,
+				04AA4F0227E15CBC00D34143 /* RSBaseViewController.swift in Sources */,
+				04AA4EF827E07C9100D34143 /* Edit+String.swift in Sources */,
+				04CB101A27EBF4AF00697061 /* RSOneFourViewController.swift in Sources */,
+				04AA4EE627E07BA300D34143 /* ViewController.swift in Sources */,
+				042B8C0827E96E5800B2C69C /* RSMainViewController.swift in Sources */,
+				04CB101C27EBF5B700697061 /* RSOneFiveViewController.swift in Sources */,
+				04AA4F0827E188E800D34143 /* RSSecondViewController.swift in Sources */,
+				04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */,
+				04469EA027E5CB2A003831A9 /* RSTestCell.swift in Sources */,
+				04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */,
+				04E9CC5A27E8755C00FE8F9E /* RSSevenCell.swift in Sources */,
+				04AA4EE227E07BA300D34143 /* AppDelegate.swift in Sources */,
+				04AA4F2C27E1C9F000D34143 /* API.swift in Sources */,
+				04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */,
+				04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */,
+				04CB101E27EBF72000697061 /* RSOneFiveCell.swift in Sources */,
+				04E9CC5C27E87AAC00FE8F9E /* RSNineViewController.swift in Sources */,
+				04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */,
+				04AA4EF627E07BDA00D34143 /* Edit+Color.swift in Sources */,
+				04E9CC5827E8746F00FE8F9E /* RSSevenViewController.swift in Sources */,
+				044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */,
+				04CB101627EB686A00697061 /* UIView+Extension.swift in Sources */,
+				04CB102B27EC1F0400697061 /* UIViewController+RSViewController.m in Sources */,
+				04AA4F0427E15CF500D34143 /* RSFirstViewController.swift in Sources */,
+				04469EA627E6C506003831A9 /* RSModel.swift in Sources */,
+				04CB102227EC158F00697061 /* RSOneSixViewController.swift in Sources */,
+				04CB101027EB042100697061 /* RSOneOneViewController.swift in Sources */,
+				04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */,
+				04469EA227E5E49B003831A9 /* RSImageContentView.swift in Sources */,
+				04AA4F0627E15D1B00D34143 /* RSNaviViewController.swift in Sources */,
+				04469E9E27E55355003831A9 /* RSFourViewController.swift in Sources */,
+				04CB101827EBF06900697061 /* RSOneThreeViewController.swift in Sources */,
+				04CB102027EC00D500697061 /* RSMLSelectPhotosView.swift in Sources */,
+				04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */,
+				04AA4F0027E0A00100D34143 /* Edit+UIImage.swift in Sources */,
+				04AA4EFA27E0888900D34143 /* Config.swift in Sources */,
+				04AA4EFE27E0943D00D34143 /* Edit+UIImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AA4EE727E07BA300D34143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA4EE827E07BA300D34143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AA4EEC27E07BAD00D34143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA4EED27E07BAD00D34143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AA4EF027E07BAD00D34143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AA4EF127E07BAD00D34143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AA4EF327E07BAD00D34143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99837C066F0DFCD294234413 /* Pods-测试暗黑和白天模式.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CVKEU8NXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "测试暗黑和白天模式/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/测试暗黑和白天模式/Brideg.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04AA4EF427E07BAD00D34143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46A5ECA9B6452235C6B8699 /* Pods-测试暗黑和白天模式.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CVKEU8NXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "测试暗黑和白天模式/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/测试暗黑和白天模式/Brideg.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AA4ED927E07BA200D34143 /* Build configuration list for PBXProject "测试暗黑和白天模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA4EF027E07BAD00D34143 /* Debug */,
+				04AA4EF127E07BAD00D34143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA4EF227E07BAD00D34143 /* Build configuration list for PBXNativeTarget "测试暗黑和白天模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA4EF327E07BAD00D34143 /* Debug */,
+				04AA4EF427E07BAD00D34143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AA4ED627E07BA200D34143 /* Project object */;
+}

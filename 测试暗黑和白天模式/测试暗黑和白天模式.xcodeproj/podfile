@@ -1,0 +1,9 @@
+platform :ios,'9.0'
+use_frameworks!
+
+target '测试暗黑和白天模式' do
+
+pod 'FMDB'
+
+
+end

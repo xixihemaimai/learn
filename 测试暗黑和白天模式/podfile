@@ -1,0 +1,7 @@
+
+target '测试暗黑和白天模式' do
+use_frameworks!
+pod 'FMDB'
+pod 'Moya'
+pod 'SnapKit'
+end
