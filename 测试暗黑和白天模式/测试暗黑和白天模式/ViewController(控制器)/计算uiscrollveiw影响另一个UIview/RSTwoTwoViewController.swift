@@ -62,14 +62,14 @@ class RSTwoTwoViewController: UIViewController {
             make.width.equalTo(15)
         }
         
-        for i in 0..<10 {
+        for i in 0..<7 {
             let btn = UIButton()
-            btn.frame = CGRect(x: i * 100 + i * 10, y: 10, width: 100, height: 100)
+            btn.frame = CGRect(x: i * (100 + 10) + 10, y: 10, width: 100, height: 100)
             btn.backgroundColor = UIColor.orange
             data.append(i)
             scrollview.addSubview(btn)
         }
-        scrollview.contentSize = CGSize(width: data.count * 100 + data.count * 10, height: 0)
+        scrollview.contentSize = CGSize(width: data.count * (100 + 10) + 10, height: 0)
         outView.width = scrollview.contentSize.width / 10
     }
 }
