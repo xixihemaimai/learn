@@ -9,12 +9,8 @@ import Foundation
 
 
 extension RSCustomView{
-    
+    //扩展这边添加了fileprivate也是只能在当前类里面使用
     fileprivate var div:Int{
         return 12
     }
-    
-    
-    
-    
 }
