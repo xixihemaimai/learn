@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 
 class userManager:NSObject{
@@ -41,20 +42,45 @@ class userManager:NSObject{
     
     
     
-    //判读用户的token --- 通过数据库获取用户信息的token --- getobject
+//    判读用户的token --- 通过数据库获取用户信息的token --- getobject
     
     
     
     
-    //用来更新token----通过数据库来更新用户信息的token -- update
+//    用来更新token----通过数据库来更新用户信息的token -- update
     
     
     
     
     //用来更新用户信息 --- 这边需要去获取数据库 --- update
+    func updateUserModel(userModel:RSUserModel){
+        RSTwoSixNSObject.share.update(intoTable: "userInfo", on: RSUserModel.Properties.all, with: userModel)
+        //这边对自己的usermodel进行更新
+        self.usermodel = userModel
+    }
     
     
+    //获取用户信息
+    func reloadUserModelInfo()->RSUserModel{
+        guard let _userModel:RSUserModel = RSTwoSixNSObject.share.querySingleObjectFromDb(propertys: RSUserModel.Properties.all, fromTable: "userInfo") else{
+//            return
+            fatalError("获取失败")
+        }
+        self.usermodel = _userModel
+        return _userModel
+    }
     
-    
+    //_ otherVc:UIViewController -> ()
+    //这边判断有没有登录
+    func isLoginPresentVc(currentVc:UIViewController,presentVc:((_ otherVc:UIViewController) -> ())){
+        if !isLogin(){
+            //这边是弹起登录的部分
+           let navi =  RSNaviViewController(rootViewController: UIViewController())
+           currentVc.present(navi, animated: true, completion: nil)
+        }else{
+            //这边是已经登录的
+            presentVc(currentVc)
+        }
+    }
     
 }

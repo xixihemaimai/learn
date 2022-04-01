@@ -20,6 +20,8 @@
 		047DB34A27F5B4890095B128 /* RSTwoSixNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */; };
 		047DB34C27F5EA240095B128 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34B27F5EA240095B128 /* UserManager.swift */; };
 		047DB34E27F5EBD80095B128 /* RSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34D27F5EBD80095B128 /* RSUserModel.swift */; };
+		047DB35027F684360095B128 /* RSCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34F27F684360095B128 /* RSCustomTableView.swift */; };
+		047DB35227F6866B0095B128 /* RSTwoSeverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB35127F6866B0095B128 /* RSTwoSeverViewController.swift */; };
 		0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */; };
 		0483811627EFE57400BEE7C8 /* RSTwoThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */; };
 		0483811827EFE5A400BEE7C8 /* RSCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811727EFE5A400BEE7C8 /* RSCustomView.swift */; };
@@ -83,6 +85,8 @@
 		047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSixNSObject.swift; sourceTree = "<group>"; };
 		047DB34B27F5EA240095B128 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		047DB34D27F5EBD80095B128 /* RSUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserModel.swift; sourceTree = "<group>"; };
+		047DB34F27F684360095B128 /* RSCustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomTableView.swift; sourceTree = "<group>"; };
+		047DB35127F6866B0095B128 /* RSTwoSeverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSeverViewController.swift; sourceTree = "<group>"; };
 		0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoTwoViewController.swift; sourceTree = "<group>"; };
 		0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoThreeViewController.swift; sourceTree = "<group>"; };
 		0483811727EFE5A400BEE7C8 /* RSCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomView.swift; sourceTree = "<group>"; };
@@ -239,7 +243,7 @@
 			path = "分组为可以显示在最中间";
 			sourceTree = "<group>";
 		};
-		047DB34227F5A70D0095B128 /* 自定义uicollectionview */ = {
+		047DB34227F5A70D0095B128 /* 自定义uicollectionview和JFPop的使用方法 */ = {
 			isa = PBXGroup;
 			children = (
 				047DB34327F5A73C0095B128 /* RSTwoSixCollectionViewController.swift */,
@@ -248,8 +252,10 @@
 				047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */,
 				047DB34B27F5EA240095B128 /* UserManager.swift */,
 				047DB34D27F5EBD80095B128 /* RSUserModel.swift */,
+				047DB34F27F684360095B128 /* RSCustomTableView.swift */,
+				047DB35127F6866B0095B128 /* RSTwoSeverViewController.swift */,
 			);
-			path = "自定义uicollectionview";
+			path = "自定义uicollectionview和JFPop的使用方法";
 			sourceTree = "<group>";
 		};
 		0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */ = {
@@ -308,7 +314,7 @@
 		04A3D25C27ED46CF00645365 /* ViewController(控制器) */ = {
 			isa = PBXGroup;
 			children = (
-				047DB34227F5A70D0095B128 /* 自定义uicollectionview */,
+				047DB34227F5A70D0095B128 /* 自定义uicollectionview和JFPop的使用方法 */,
 				04B7368827F4544D00739520 /* 主控制器 */,
 				04A7024527F13A8A00DBFB70 /* uicollectionView练习 */,
 				0483811427EFE52000BEE7C8 /* 测试这个fileprivate使用范围 */,
@@ -567,6 +573,7 @@
 				04AA4F2A27E1B8D300D34143 /* RSSecondViewModel.swift in Sources */,
 				0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */,
 				04A7024727F13ACB00DBFB70 /* RSTwoFourViewController.swift in Sources */,
+				047DB35227F6866B0095B128 /* RSTwoSeverViewController.swift in Sources */,
 				047DB34627F5A90D0095B128 /* RSTwoSixCell.swift in Sources */,
 				0483811A27EFE64E00BEE7C8 /* Custom+Extension.swift in Sources */,
 				04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */,
@@ -584,6 +591,7 @@
 				04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */,
 				04E9CC5A27E8755C00FE8F9E /* RSSevenCell.swift in Sources */,
 				04AA4EE227E07BA300D34143 /* AppDelegate.swift in Sources */,
+				047DB35027F684360095B128 /* RSCustomTableView.swift in Sources */,
 				04C27FAA27EED7A20070BC28 /* RSFirstView.swift in Sources */,
 				0483811827EFE5A400BEE7C8 /* RSCustomView.swift in Sources */,
 				04AA4F2C27E1C9F000D34143 /* API.swift in Sources */,

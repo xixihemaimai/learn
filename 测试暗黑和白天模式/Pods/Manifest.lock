@@ -3,6 +3,9 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - JFPopup (1.4.0):
+    - JRBaseKit (~> 0.9.0)
+  - JRBaseKit (0.9.0)
   - Kingfisher (7.1.2)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
@@ -18,6 +21,7 @@ PODS:
 
 DEPENDENCIES:
   - FMDB
+  - JFPopup
   - Kingfisher
   - Moya
   - SnapKit
@@ -27,6 +31,8 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - FMDB
+    - JFPopup
+    - JRBaseKit
     - Kingfisher
     - Moya
     - OptimizedSQLCipher
@@ -37,6 +43,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JFPopup: ec02a2c1574d90cb54d182aec9213034735da70e
+  JRBaseKit: f4a95149f6b68417348e63065d384f22501cf2ce
   Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   OptimizedSQLCipher: 92a1bf5cc94139e1da49de9c883ff9891bcd2a37
@@ -44,6 +52,6 @@ SPEC CHECKSUMS:
   SQLiteRepair: 65ac4472667ac8cdeb93c3765f2fcae4dd259204
   WCDBSwift: 6687dc2d4bebce2b237017ca367730f5f8409e67
 
-PODFILE CHECKSUM: a66e0705e6622a4e7627632d7f27d6c094e45818
+PODFILE CHECKSUM: 48187c9d9cc15432f70c9bfd5c0c6b8f72a2395d
 
 COCOAPODS: 1.11.3

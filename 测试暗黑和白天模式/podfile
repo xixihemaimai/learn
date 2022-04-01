@@ -6,4 +6,5 @@ pod 'Moya'
 pod 'SnapKit'
 pod 'Kingfisher'
 pod 'WCDBSwift'
+pod 'JFPopup'
 end

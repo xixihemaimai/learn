@@ -87,4 +87,15 @@ extension RSTwoSixCollectionViewController:UICollectionViewDelegate,UICollection
     }
     
     
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+        userManager.share.isLoginPresentVc(currentVc: self) { otherVc in
+            //这边是已经登录的地方
+            
+            otherVc.navigationController?.pushViewController(UIViewController(), animated: true)
+        }
+    
+    }
+    
 }

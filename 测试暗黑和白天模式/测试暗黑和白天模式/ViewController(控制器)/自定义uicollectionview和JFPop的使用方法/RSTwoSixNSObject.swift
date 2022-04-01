@@ -84,11 +84,12 @@ class RSTwoSixNSObject:NSObject{
         }
     }
     
-    //删除所以
-    func deleteAll(){
+    //删除那个数据库
+    func deleteAll(table:String){
         do{
             try dataBase?.close(onClosed: {
-                try dataBase?.removeFiles()
+//                try dataBase?.removeFiles()
+                try dataBase?.delete(fromTable: table)
             })
         }catch{
             fatalError("删除所以失败")
