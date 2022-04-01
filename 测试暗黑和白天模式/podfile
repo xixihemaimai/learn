@@ -4,4 +4,6 @@ use_frameworks!
 pod 'FMDB'
 pod 'Moya'
 pod 'SnapKit'
+pod 'Kingfisher'
+pod 'WCDBSwift'
 end

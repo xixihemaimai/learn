@@ -1,5 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-测试暗黑和白天模式/Pods-测试暗黑和白天模式-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/OptimizedSQLCipher/sqlcipher.framework
+${BUILT_PRODUCTS_DIR}/SQLiteRepair/sqliterk.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/WCDBSwift/WCDBSwift.framework

@@ -26,6 +26,29 @@ protocol towwwww{
 }
 
 
+struct setting:towwwww{
+    var a:Int
+    var b:Int
+    var c:Int
+    
+    mutating func mut() {
+//        self.a = 10
+//        self.b = 11
+//        self.c = 12
+        switch self.a{
+        case 1:
+            self.a = 10
+        case 2:
+            self.b = 11
+        case 3:
+            self.c = 11
+        default:
+            self.a = 13
+        }
+    }
+}
+
+
 
 
 class RSTwoThreeViewController: UIViewController{
@@ -41,6 +64,13 @@ class RSTwoThreeViewController: UIViewController{
         var to = twossss.me
         to.mut()
         LXFLog(to)
+        
+        
+        var seet = setting.init(a: 1, b: 2, c: 3)
+        seet.mut()
+//        seet.a = 1000
+        LXFLog(seet.a)
+        
         
     }
 

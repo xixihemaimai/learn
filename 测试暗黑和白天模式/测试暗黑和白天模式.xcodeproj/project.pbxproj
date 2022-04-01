@@ -14,6 +14,12 @@
 		04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA327E6B622003831A9 /* RSSixViewController.swift */; };
 		04469EA627E6C506003831A9 /* RSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04469EA527E6C506003831A9 /* RSModel.swift */; };
 		044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */; };
+		047DB34427F5A73C0095B128 /* RSTwoSixCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34327F5A73C0095B128 /* RSTwoSixCollectionViewController.swift */; };
+		047DB34627F5A90D0095B128 /* RSTwoSixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34527F5A90D0095B128 /* RSTwoSixCell.swift */; };
+		047DB34827F5AC110095B128 /* RSTwoSixReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34727F5AC110095B128 /* RSTwoSixReusableView.swift */; };
+		047DB34A27F5B4890095B128 /* RSTwoSixNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */; };
+		047DB34C27F5EA240095B128 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34B27F5EA240095B128 /* UserManager.swift */; };
+		047DB34E27F5EBD80095B128 /* RSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34D27F5EBD80095B128 /* RSUserModel.swift */; };
 		0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */; };
 		0483811627EFE57400BEE7C8 /* RSTwoThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */; };
 		0483811827EFE5A400BEE7C8 /* RSCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811727EFE5A400BEE7C8 /* RSCustomView.swift */; };
@@ -22,6 +28,8 @@
 		04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */; };
 		04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */; };
 		04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3D26427EDC42F00645365 /* RSCommentView.swift */; };
+		04A7024727F13ACB00DBFB70 /* RSTwoFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7024627F13ACB00DBFB70 /* RSTwoFourViewController.swift */; };
+		04A7024927F13D6F00DBFB70 /* RSTwoFourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7024827F13D6F00DBFB70 /* RSTwoFourCell.swift */; };
 		04AA4EE227E07BA300D34143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EE127E07BA300D34143 /* AppDelegate.swift */; };
 		04AA4EE627E07BA300D34143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4EE527E07BA300D34143 /* ViewController.swift */; };
 		04AA4EE927E07BA300D34143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA4EE727E07BA300D34143 /* Main.storyboard */; };
@@ -40,6 +48,8 @@
 		04AA4F2C27E1C9F000D34143 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2B27E1C9F000D34143 /* API.swift */; };
 		04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */; };
 		04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B26FD327E334030048CB51 /* RSThirdViewController.swift */; };
+		04B7368A27F454CD00739520 /* RSTwoFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7368927F454CC00739520 /* RSTwoFiveViewController.swift */; };
+		04B7368C27F45BC400739520 /* RSCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7368B27F45BC400739520 /* RSCustomTabBar.swift */; };
 		04C27FAA27EED7A20070BC28 /* RSFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FA927EED7A20070BC28 /* RSFirstView.swift */; };
 		04C27FAC27EED7BA0070BC28 /* RSSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */; };
 		04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100927E9D9B700697061 /* Edit+Time.swift */; };
@@ -67,6 +77,12 @@
 		04469EA327E6B622003831A9 /* RSSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSixViewController.swift; sourceTree = "<group>"; };
 		04469EA527E6C506003831A9 /* RSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSModel.swift; sourceTree = "<group>"; };
 		044ADB5F27EE9DE300FBC68D /* RSTwoOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoOneViewController.swift; sourceTree = "<group>"; };
+		047DB34327F5A73C0095B128 /* RSTwoSixCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSixCollectionViewController.swift; sourceTree = "<group>"; };
+		047DB34527F5A90D0095B128 /* RSTwoSixCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSixCell.swift; sourceTree = "<group>"; };
+		047DB34727F5AC110095B128 /* RSTwoSixReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSixReusableView.swift; sourceTree = "<group>"; };
+		047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSixNSObject.swift; sourceTree = "<group>"; };
+		047DB34B27F5EA240095B128 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		047DB34D27F5EBD80095B128 /* RSUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserModel.swift; sourceTree = "<group>"; };
 		0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoTwoViewController.swift; sourceTree = "<group>"; };
 		0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoThreeViewController.swift; sourceTree = "<group>"; };
 		0483811727EFE5A400BEE7C8 /* RSCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomView.swift; sourceTree = "<group>"; };
@@ -75,6 +91,8 @@
 		04A3D25727EC696F00645365 /* RSOneSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneSevenViewController.swift; sourceTree = "<group>"; };
 		04A3D26227EDC40A00645365 /* RSOneNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOneNineViewController.swift; sourceTree = "<group>"; };
 		04A3D26427EDC42F00645365 /* RSCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCommentView.swift; sourceTree = "<group>"; };
+		04A7024627F13ACB00DBFB70 /* RSTwoFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoFourViewController.swift; sourceTree = "<group>"; };
+		04A7024827F13D6F00DBFB70 /* RSTwoFourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoFourCell.swift; sourceTree = "<group>"; };
 		04AA4EDE27E07BA300D34143 /* 测试暗黑和白天模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试暗黑和白天模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA4EE127E07BA300D34143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AA4EE527E07BA300D34143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +113,8 @@
 		04AA4F2B27E1C9F000D34143 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		04AA4F2D27E1CFBF00D34143 /* NewWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkTool.swift; sourceTree = "<group>"; };
 		04B26FD327E334030048CB51 /* RSThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThirdViewController.swift; sourceTree = "<group>"; };
+		04B7368927F454CC00739520 /* RSTwoFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoFiveViewController.swift; sourceTree = "<group>"; };
+		04B7368B27F45BC400739520 /* RSCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomTabBar.swift; sourceTree = "<group>"; };
 		04C27FA927EED7A20070BC28 /* RSFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFirstView.swift; sourceTree = "<group>"; };
 		04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecondView.swift; sourceTree = "<group>"; };
 		04CB100927E9D9B700697061 /* Edit+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+Time.swift"; sourceTree = "<group>"; };
@@ -219,6 +239,19 @@
 			path = "分组为可以显示在最中间";
 			sourceTree = "<group>";
 		};
+		047DB34227F5A70D0095B128 /* 自定义uicollectionview */ = {
+			isa = PBXGroup;
+			children = (
+				047DB34327F5A73C0095B128 /* RSTwoSixCollectionViewController.swift */,
+				047DB34527F5A90D0095B128 /* RSTwoSixCell.swift */,
+				047DB34727F5AC110095B128 /* RSTwoSixReusableView.swift */,
+				047DB34927F5B4890095B128 /* RSTwoSixNSObject.swift */,
+				047DB34B27F5EA240095B128 /* UserManager.swift */,
+				047DB34D27F5EBD80095B128 /* RSUserModel.swift */,
+			);
+			path = "自定义uicollectionview";
+			sourceTree = "<group>";
+		};
 		0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +308,9 @@
 		04A3D25C27ED46CF00645365 /* ViewController(控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				047DB34227F5A70D0095B128 /* 自定义uicollectionview */,
+				04B7368827F4544D00739520 /* 主控制器 */,
+				04A7024527F13A8A00DBFB70 /* uicollectionView练习 */,
 				0483811427EFE52000BEE7C8 /* 测试这个fileprivate使用范围 */,
 				0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */,
 				044ADB5E27EE9DAE00FBC68D /* 分组为可以显示在最中间 */,
@@ -341,6 +377,15 @@
 			path = "Model（模型）";
 			sourceTree = "<group>";
 		};
+		04A7024527F13A8A00DBFB70 /* uicollectionView练习 */ = {
+			isa = PBXGroup;
+			children = (
+				04A7024627F13ACB00DBFB70 /* RSTwoFourViewController.swift */,
+				04A7024827F13D6F00DBFB70 /* RSTwoFourCell.swift */,
+			);
+			path = "uicollectionView练习";
+			sourceTree = "<group>";
+		};
 		04AA4ED527E07BA200D34143 = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +419,15 @@
 				04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */,
 			);
 			path = "测试暗黑和白天模式";
+			sourceTree = "<group>";
+		};
+		04B7368827F4544D00739520 /* 主控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				04B7368927F454CC00739520 /* RSTwoFiveViewController.swift */,
+				04B7368B27F45BC400739520 /* RSCustomTabBar.swift */,
+			);
+			path = "主控制器";
 			sourceTree = "<group>";
 		};
 		2EACF366F5E98973EA496185 /* Frameworks */ = {
@@ -509,8 +563,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047DB34827F5AC110095B128 /* RSTwoSixReusableView.swift in Sources */,
 				04AA4F2A27E1B8D300D34143 /* RSSecondViewModel.swift in Sources */,
 				0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */,
+				04A7024727F13ACB00DBFB70 /* RSTwoFourViewController.swift in Sources */,
+				047DB34627F5A90D0095B128 /* RSTwoSixCell.swift in Sources */,
 				0483811A27EFE64E00BEE7C8 /* Custom+Extension.swift in Sources */,
 				04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */,
 				04CB101427EB49B900697061 /* RSOneTwoViewController.swift in Sources */,
@@ -531,14 +588,17 @@
 				0483811827EFE5A400BEE7C8 /* RSCustomView.swift in Sources */,
 				04AA4F2C27E1C9F000D34143 /* API.swift in Sources */,
 				04AA4F2E27E1CFBF00D34143 /* NewWorkTool.swift in Sources */,
+				047DB34427F5A73C0095B128 /* RSTwoSixCollectionViewController.swift in Sources */,
 				04A3D25827EC697000645365 /* RSOneSevenViewController.swift in Sources */,
 				04CB101E27EBF72000697061 /* RSOneFiveCell.swift in Sources */,
 				04E9CC5C27E87AAC00FE8F9E /* RSNineViewController.swift in Sources */,
 				0483811627EFE57400BEE7C8 /* RSTwoThreeViewController.swift in Sources */,
+				047DB34C27F5EA240095B128 /* UserManager.swift in Sources */,
 				04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */,
 				04AA4EF627E07BDA00D34143 /* Edit+Color.swift in Sources */,
 				04E9CC5827E8746F00FE8F9E /* RSSevenViewController.swift in Sources */,
 				0483811C27EFE6BE00BEE7C8 /* RSTwoCustomView.swift in Sources */,
+				04A7024927F13D6F00DBFB70 /* RSTwoFourCell.swift in Sources */,
 				044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */,
 				04CB101627EB686A00697061 /* UIView+Extension.swift in Sources */,
 				04CB102B27EC1F0400697061 /* UIViewController+RSViewController.m in Sources */,
@@ -546,15 +606,19 @@
 				04469EA627E6C506003831A9 /* RSModel.swift in Sources */,
 				04CB102227EC158F00697061 /* RSOneSixViewController.swift in Sources */,
 				04CB101027EB042100697061 /* RSOneOneViewController.swift in Sources */,
+				047DB34E27F5EBD80095B128 /* RSUserModel.swift in Sources */,
+				04B7368C27F45BC400739520 /* RSCustomTabBar.swift in Sources */,
 				04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */,
 				04469EA227E5E49B003831A9 /* RSImageContentView.swift in Sources */,
 				04AA4F0627E15D1B00D34143 /* RSNaviViewController.swift in Sources */,
+				047DB34A27F5B4890095B128 /* RSTwoSixNSObject.swift in Sources */,
 				04469E9E27E55355003831A9 /* RSFourViewController.swift in Sources */,
 				04CB101827EBF06900697061 /* RSOneThreeViewController.swift in Sources */,
 				04CB102027EC00D500697061 /* RSMLSelectPhotosView.swift in Sources */,
 				04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */,
 				04AA4F0027E0A00100D34143 /* Edit+UIImage.swift in Sources */,
 				04AA4EFA27E0888900D34143 /* Config.swift in Sources */,
+				04B7368A27F454CD00739520 /* RSTwoFiveViewController.swift in Sources */,
 				04AA4EFE27E0943D00D34143 /* Edit+UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,7 +785,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Test.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -755,7 +819,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Test.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
