@@ -22,6 +22,8 @@
 		047DB34E27F5EBD80095B128 /* RSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34D27F5EBD80095B128 /* RSUserModel.swift */; };
 		047DB35027F684360095B128 /* RSCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB34F27F684360095B128 /* RSCustomTableView.swift */; };
 		047DB35227F6866B0095B128 /* RSTwoSeverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB35127F6866B0095B128 /* RSTwoSeverViewController.swift */; };
+		047DB35527F6F3490095B128 /* RSTwoEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB35427F6F3490095B128 /* RSTwoEightViewController.swift */; };
+		047DB35727F6F3940095B128 /* RSTwoEightTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB35627F6F3940095B128 /* RSTwoEightTool.swift */; };
 		0483811227EF05CF00BEE7C8 /* RSTwoTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */; };
 		0483811627EFE57400BEE7C8 /* RSTwoThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */; };
 		0483811827EFE5A400BEE7C8 /* RSCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483811727EFE5A400BEE7C8 /* RSCustomView.swift */; };
@@ -52,6 +54,11 @@
 		04B26FD427E334030048CB51 /* RSThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B26FD327E334030048CB51 /* RSThirdViewController.swift */; };
 		04B7368A27F454CD00739520 /* RSTwoFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7368927F454CC00739520 /* RSTwoFiveViewController.swift */; };
 		04B7368C27F45BC400739520 /* RSCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7368B27F45BC400739520 /* RSCustomTabBar.swift */; };
+		04BF243827F993A4005AE9F0 /* RSRealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF243727F993A4005AE9F0 /* RSRealmDB.swift */; };
+		04BF243A27F99F60005AE9F0 /* RSGRDBDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF243927F99F5F005AE9F0 /* RSGRDBDB.swift */; };
+		04C0490B27FADB4700201B4E /* RSReWritGRDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0490A27FADB4600201B4E /* RSReWritGRDB.swift */; };
+		04C0490E27FAE79800201B4E /* RSThreeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0490D27FAE79800201B4E /* RSThreeTwoViewController.swift */; };
+		04C0491027FAE92000201B4E /* RSThreeTwoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0490F27FAE92000201B4E /* RSThreeTwoHeaderView.swift */; };
 		04C27FAA27EED7A20070BC28 /* RSFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FA927EED7A20070BC28 /* RSFirstView.swift */; };
 		04C27FAC27EED7BA0070BC28 /* RSSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */; };
 		04CB100A27E9D9B700697061 /* Edit+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB100927E9D9B700697061 /* Edit+Time.swift */; };
@@ -66,9 +73,12 @@
 		04CB102027EC00D500697061 /* RSMLSelectPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB101F27EC00D500697061 /* RSMLSelectPhotosView.swift */; };
 		04CB102227EC158F00697061 /* RSOneSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB102127EC158F00697061 /* RSOneSixViewController.swift */; };
 		04CB102B27EC1F0400697061 /* UIViewController+RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */; };
+		04DC7A4027F85356008506ED /* RSTwoTwoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC7A3F27F85356008506ED /* RSTwoTwoTool.swift */; };
+		04DC7A4327F98DD4008506ED /* RSThreeZeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC7A4227F98DD3008506ED /* RSThreeZeroViewController.swift */; };
 		04E9CC5827E8746F00FE8F9E /* RSSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5727E8746F00FE8F9E /* RSSevenViewController.swift */; };
 		04E9CC5A27E8755C00FE8F9E /* RSSevenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5927E8755C00FE8F9E /* RSSevenCell.swift */; };
 		04E9CC5C27E87AAC00FE8F9E /* RSNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9CC5B27E87AAB00FE8F9E /* RSNineViewController.swift */; };
+		04EE9D0410319921950E5AD3 /* Pods__________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86180145903D2BDCDE93B921 /* Pods__________.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +97,8 @@
 		047DB34D27F5EBD80095B128 /* RSUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserModel.swift; sourceTree = "<group>"; };
 		047DB34F27F684360095B128 /* RSCustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomTableView.swift; sourceTree = "<group>"; };
 		047DB35127F6866B0095B128 /* RSTwoSeverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoSeverViewController.swift; sourceTree = "<group>"; };
+		047DB35427F6F3490095B128 /* RSTwoEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoEightViewController.swift; sourceTree = "<group>"; };
+		047DB35627F6F3940095B128 /* RSTwoEightTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoEightTool.swift; sourceTree = "<group>"; };
 		0483811127EF05CF00BEE7C8 /* RSTwoTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoTwoViewController.swift; sourceTree = "<group>"; };
 		0483811527EFE57400BEE7C8 /* RSTwoThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoThreeViewController.swift; sourceTree = "<group>"; };
 		0483811727EFE5A400BEE7C8 /* RSCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomView.swift; sourceTree = "<group>"; };
@@ -119,6 +131,11 @@
 		04B26FD327E334030048CB51 /* RSThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThirdViewController.swift; sourceTree = "<group>"; };
 		04B7368927F454CC00739520 /* RSTwoFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoFiveViewController.swift; sourceTree = "<group>"; };
 		04B7368B27F45BC400739520 /* RSCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCustomTabBar.swift; sourceTree = "<group>"; };
+		04BF243727F993A4005AE9F0 /* RSRealmDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRealmDB.swift; sourceTree = "<group>"; };
+		04BF243927F99F5F005AE9F0 /* RSGRDBDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSGRDBDB.swift; sourceTree = "<group>"; };
+		04C0490A27FADB4600201B4E /* RSReWritGRDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSReWritGRDB.swift; sourceTree = "<group>"; };
+		04C0490D27FAE79800201B4E /* RSThreeTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThreeTwoViewController.swift; sourceTree = "<group>"; };
+		04C0490F27FAE92000201B4E /* RSThreeTwoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThreeTwoHeaderView.swift; sourceTree = "<group>"; };
 		04C27FA927EED7A20070BC28 /* RSFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFirstView.swift; sourceTree = "<group>"; };
 		04C27FAB27EED7BA0070BC28 /* RSSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSecondView.swift; sourceTree = "<group>"; };
 		04CB100927E9D9B700697061 /* Edit+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit+Time.swift"; sourceTree = "<group>"; };
@@ -135,6 +152,8 @@
 		04CB102927EC1F0400697061 /* UIViewController+RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSViewController.m"; sourceTree = "<group>"; };
 		04CB102A27EC1F0400697061 /* UIViewController+RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSViewController.h"; sourceTree = "<group>"; };
 		04CB102C27EC1F4E00697061 /* Brideg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brideg.h; sourceTree = "<group>"; };
+		04DC7A3F27F85356008506ED /* RSTwoTwoTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTwoTwoTool.swift; sourceTree = "<group>"; };
+		04DC7A4227F98DD3008506ED /* RSThreeZeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSThreeZeroViewController.swift; sourceTree = "<group>"; };
 		04E9CC5727E8746F00FE8F9E /* RSSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSevenViewController.swift; sourceTree = "<group>"; };
 		04E9CC5927E8755C00FE8F9E /* RSSevenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSevenCell.swift; sourceTree = "<group>"; };
 		04E9CC5B27E87AAB00FE8F9E /* RSNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNineViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EE9D0410319921950E5AD3 /* Pods__________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +278,16 @@
 			path = "自定义uicollectionview和JFPop的使用方法";
 			sourceTree = "<group>";
 		};
+		047DB35327F6F3210095B128 /* 自己练习 */ = {
+			isa = PBXGroup;
+			children = (
+				047DB35427F6F3490095B128 /* RSTwoEightViewController.swift */,
+				047DB35627F6F3940095B128 /* RSTwoEightTool.swift */,
+				04DC7A3F27F85356008506ED /* RSTwoTwoTool.swift */,
+			);
+			path = "自己练习";
+			sourceTree = "<group>";
+		};
 		0483811327EF243C00BEE7C8 /* 计算uiscrollveiw影响另一个UIview */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +344,9 @@
 		04A3D25C27ED46CF00645365 /* ViewController(控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				04C0490C27FAE76300201B4E /* 自定义uitableview头部悬停和uicollectionview左右 */,
+				04DC7A4127F98D90008506ED /* 自己尝试写下GRDB和realm数据库 */,
+				047DB35327F6F3210095B128 /* 自己练习 */,
 				047DB34227F5A70D0095B128 /* 自定义uicollectionview和JFPop的使用方法 */,
 				04B7368827F4544D00739520 /* 主控制器 */,
 				04A7024527F13A8A00DBFB70 /* uicollectionView练习 */,
@@ -434,6 +467,26 @@
 				04B7368B27F45BC400739520 /* RSCustomTabBar.swift */,
 			);
 			path = "主控制器";
+			sourceTree = "<group>";
+		};
+		04C0490C27FAE76300201B4E /* 自定义uitableview头部悬停和uicollectionview左右 */ = {
+			isa = PBXGroup;
+			children = (
+				04C0490D27FAE79800201B4E /* RSThreeTwoViewController.swift */,
+				04C0490F27FAE92000201B4E /* RSThreeTwoHeaderView.swift */,
+			);
+			path = "自定义uitableview头部悬停和uicollectionview左右";
+			sourceTree = "<group>";
+		};
+		04DC7A4127F98D90008506ED /* 自己尝试写下GRDB和realm数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				04DC7A4227F98DD3008506ED /* RSThreeZeroViewController.swift */,
+				04BF243727F993A4005AE9F0 /* RSRealmDB.swift */,
+				04BF243927F99F5F005AE9F0 /* RSGRDBDB.swift */,
+				04C0490A27FADB4600201B4E /* RSReWritGRDB.swift */,
+			);
+			path = "自己尝试写下GRDB和realm数据库";
 			sourceTree = "<group>";
 		};
 		2EACF366F5E98973EA496185 /* Frameworks */ = {
@@ -575,7 +628,9 @@
 				04A7024727F13ACB00DBFB70 /* RSTwoFourViewController.swift in Sources */,
 				047DB35227F6866B0095B128 /* RSTwoSeverViewController.swift in Sources */,
 				047DB34627F5A90D0095B128 /* RSTwoSixCell.swift in Sources */,
+				04BF243827F993A4005AE9F0 /* RSRealmDB.swift in Sources */,
 				0483811A27EFE64E00BEE7C8 /* Custom+Extension.swift in Sources */,
+				04C0491027FAE92000201B4E /* RSThreeTwoHeaderView.swift in Sources */,
 				04CB100E27EB03FD00697061 /* RSTenViewController.swift in Sources */,
 				04CB101427EB49B900697061 /* RSOneTwoViewController.swift in Sources */,
 				04AA4F0227E15CBC00D34143 /* RSBaseViewController.swift in Sources */,
@@ -604,23 +659,30 @@
 				047DB34C27F5EA240095B128 /* UserManager.swift in Sources */,
 				04A3D26527EDC43000645365 /* RSCommentView.swift in Sources */,
 				04AA4EF627E07BDA00D34143 /* Edit+Color.swift in Sources */,
+				04C0490B27FADB4700201B4E /* RSReWritGRDB.swift in Sources */,
 				04E9CC5827E8746F00FE8F9E /* RSSevenViewController.swift in Sources */,
 				0483811C27EFE6BE00BEE7C8 /* RSTwoCustomView.swift in Sources */,
+				047DB35727F6F3940095B128 /* RSTwoEightTool.swift in Sources */,
 				04A7024927F13D6F00DBFB70 /* RSTwoFourCell.swift in Sources */,
 				044ADB6027EE9DE300FBC68D /* RSTwoOneViewController.swift in Sources */,
 				04CB101627EB686A00697061 /* UIView+Extension.swift in Sources */,
 				04CB102B27EC1F0400697061 /* UIViewController+RSViewController.m in Sources */,
 				04AA4F0427E15CF500D34143 /* RSFirstViewController.swift in Sources */,
 				04469EA627E6C506003831A9 /* RSModel.swift in Sources */,
+				04DC7A4327F98DD4008506ED /* RSThreeZeroViewController.swift in Sources */,
 				04CB102227EC158F00697061 /* RSOneSixViewController.swift in Sources */,
+				04C0490E27FAE79800201B4E /* RSThreeTwoViewController.swift in Sources */,
 				04CB101027EB042100697061 /* RSOneOneViewController.swift in Sources */,
+				04DC7A4027F85356008506ED /* RSTwoTwoTool.swift in Sources */,
 				047DB34E27F5EBD80095B128 /* RSUserModel.swift in Sources */,
 				04B7368C27F45BC400739520 /* RSCustomTabBar.swift in Sources */,
 				04A3D26327EDC40B00645365 /* RSOneNineViewController.swift in Sources */,
+				04BF243A27F99F60005AE9F0 /* RSGRDBDB.swift in Sources */,
 				04469EA227E5E49B003831A9 /* RSImageContentView.swift in Sources */,
 				04AA4F0627E15D1B00D34143 /* RSNaviViewController.swift in Sources */,
 				047DB34A27F5B4890095B128 /* RSTwoSixNSObject.swift in Sources */,
 				04469E9E27E55355003831A9 /* RSFourViewController.swift in Sources */,
+				047DB35527F6F3490095B128 /* RSTwoEightViewController.swift in Sources */,
 				04CB101827EBF06900697061 /* RSOneThreeViewController.swift in Sources */,
 				04CB102027EC00D500697061 /* RSMLSelectPhotosView.swift in Sources */,
 				04469EA427E6B622003831A9 /* RSSixViewController.swift in Sources */,
@@ -778,7 +840,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5CVKEU8NXR;
+				DEVELOPMENT_TEAM = 3N45FRA2HJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "测试暗黑和白天模式/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -793,7 +855,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Test;
+				PRODUCT_BUNDLE_IDENTIFIER = Test11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -827,7 +889,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Test;
+				PRODUCT_BUNDLE_IDENTIFIER = cccsetsdsdsd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

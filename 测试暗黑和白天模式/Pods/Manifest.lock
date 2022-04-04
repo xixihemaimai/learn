@@ -3,6 +3,9 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - GRDB.swift (5.22.1):
+    - GRDB.swift/standard (= 5.22.1)
+  - GRDB.swift/standard (5.22.1)
   - JFPopup (1.4.0):
     - JRBaseKit (~> 0.9.0)
   - JRBaseKit (0.9.0)
@@ -12,6 +15,11 @@ PODS:
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - OptimizedSQLCipher (1.2.2)
+  - Realm (10.20.1):
+    - Realm/Headers (= 10.20.1)
+  - Realm/Headers (10.20.1)
+  - RealmSwift (10.20.1):
+    - Realm (= 10.20.1)
   - SnapKit (5.0.1)
   - SQLiteRepair (1.2.2):
     - OptimizedSQLCipher
@@ -21,9 +29,11 @@ PODS:
 
 DEPENDENCIES:
   - FMDB
+  - GRDB.swift
   - JFPopup
   - Kingfisher
   - Moya
+  - RealmSwift
   - SnapKit
   - WCDBSwift
 
@@ -31,11 +41,14 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - FMDB
+    - GRDB.swift
     - JFPopup
     - JRBaseKit
     - Kingfisher
     - Moya
     - OptimizedSQLCipher
+    - Realm
+    - RealmSwift
     - SnapKit
     - SQLiteRepair
     - WCDBSwift
@@ -43,15 +56,18 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GRDB.swift: 56b4fa8924708b23004753cf0e2245e37a077bf2
   JFPopup: ec02a2c1574d90cb54d182aec9213034735da70e
   JRBaseKit: f4a95149f6b68417348e63065d384f22501cf2ce
   Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   OptimizedSQLCipher: 92a1bf5cc94139e1da49de9c883ff9891bcd2a37
+  Realm: fac5ecd031fcb81171627b74944c885662d4b266
+  RealmSwift: 9b02d25acb46a14756bde9893abb99e2e3675923
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SQLiteRepair: 65ac4472667ac8cdeb93c3765f2fcae4dd259204
   WCDBSwift: 6687dc2d4bebce2b237017ca367730f5f8409e67
 
-PODFILE CHECKSUM: 48187c9d9cc15432f70c9bfd5c0c6b8f72a2395d
+PODFILE CHECKSUM: f0cf24c7c5c9ed1a1f732ff41307a26d17bde620
 
 COCOAPODS: 1.11.3

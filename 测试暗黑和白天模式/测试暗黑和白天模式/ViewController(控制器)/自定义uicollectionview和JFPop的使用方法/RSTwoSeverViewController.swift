@@ -78,16 +78,15 @@ class RSTwoSeverViewController: UIViewController {
                 [JFPopupAction(with: "拍摄", subTitle: "照相和照片") {
                     LXFLog("拍摄")
                 },
-                
                 JFPopupAction(with: "用手机拍摄", subTitle: nil, autoDismiss: true) {
                     LXFLog("手机")
                 },
-                
                 JFPopupAction(with: "用秒剪制作视频", subTitle: nil, autoDismiss: true) {
                   LXFLog("视频")
                 }]
             }
         case 7:
+            JFPopupView.popup.toast(hit: "测试失败")
             break
         case 8:
             break
@@ -96,7 +95,7 @@ class RSTwoSeverViewController: UIViewController {
         default:
             break
         }
-        if btn.tag == 6{
+        if btn.tag == 7{
             btn.tag = 0
         }else
         {
